@@ -1,5 +1,5 @@
 
-import { User } from "lucide-react";
+import { User, Code } from "lucide-react";
 
 export const About = () => {
   return (

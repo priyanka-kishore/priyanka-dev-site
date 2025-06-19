@@ -122,29 +122,29 @@ const Index = () => {
             <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-4 border-b-2 border-blue-500 pb-2">professional experience <span className="text-xs text-gray-400 font-light ml-1"><i>of 5 years</i></span></h2>
             <div className="space-y-4">
 
-              {/* Data Engineer */}
-              <div className="border-l-4 border-blue-500 pl-4">
+              {/* Data Engineer - Purple */}
+              <div className="border-l-4 border-purple-500 pl-4">
                 <div className="flex justify-between items-start">
                   <h3 className="font-semibold text-gray-900 dark:text-white">Data Engineer</h3>
                   <span className="text-sm text-gray-600 dark:text-gray-400">2024 - <i>Current</i></span>
                 </div>
-                <p className="text-sm text-blue-600 dark:text-blue-400 mb-2">Enlighten • Columbia, MD</p>
+                <p className="text-sm text-purple-600 dark:text-purple-400 mb-2">Enlighten • Columbia, MD</p>
                 <div className="flex flex-wrap gap-1 mt-2 mb-2">
-                  <span className="px-2 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs rounded">Java</span>
-                  <span className="px-2 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs rounded">SQL</span>
-                  <span className="px-2 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs rounded">Trino</span>
-                  <span className="px-2 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs rounded">NiFi</span>
-                  <span className="px-2 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs rounded">Airflow</span>
-                  <span className="px-2 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs rounded">Superset</span>
-                  <span className="px-2 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs rounded">S3</span>
-                  <span className="px-2 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs rounded">ECR</span>
-                  <span className="px-2 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs rounded">SQS</span>
-                  <span className="px-2 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs rounded">Kubernetes/K9s</span>
-                  <span className="px-2 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs rounded">Docker</span>
-                  <span className="px-2 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs rounded">Git</span>
-                  <span className="px-2 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs rounded">Maven</span>
+                  <span className="px-2 py-1 bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 text-xs rounded">Java</span>
+                  <span className="px-2 py-1 bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 text-xs rounded">SQL</span>
+                  <span className="px-2 py-1 bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 text-xs rounded">Trino</span>
+                  <span className="px-2 py-1 bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 text-xs rounded">NiFi</span>
+                  <span className="px-2 py-1 bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 text-xs rounded">Airflow</span>
+                  <span className="px-2 py-1 bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 text-xs rounded">Superset</span>
+                  <span className="px-2 py-1 bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 text-xs rounded">S3</span>
+                  <span className="px-2 py-1 bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 text-xs rounded">ECR</span>
+                  <span className="px-2 py-1 bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 text-xs rounded">SQS</span>
+                  <span className="px-2 py-1 bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 text-xs rounded">Kubernetes/K9s</span>
+                  <span className="px-2 py-1 bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 text-xs rounded">Docker</span>
+                  <span className="px-2 py-1 bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 text-xs rounded">Git</span>
+                  <span className="px-2 py-1 bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 text-xs rounded">Maven</span>
                 </div>
-                <ul className="text-sm text-gray-600 dark:text-gray-300 space-y-1 list-disc pl-5 marker:text-blue-500 dark:marker:text-blue-400">
+                <ul className="text-sm text-gray-600 dark:text-gray-300 space-y-1 list-disc pl-5 marker:text-purple-500 dark:marker:text-purple-400">
                   <li>Monitor and manage <span className="hover:text-black hover:font-semibold">6-8 customer-facing data pipelines</span> using Airflow and NiFi, <span className="hover:text-black hover:font-semibold">maintaining &gt;99% ingest cluster uptime</span>; proactively identify and resolve ingest failures (e.g., parser errors, S3 issues, Kubernetes pods limit), <span className="hover:text-black hover:font-semibold">reducing customer-impacting incidents by 50%.</span></li>
                   <li>Develop and maintain 20+ custom Java parsers to ingest client-defined and commercial data types (e.g., PAI, news archives) into Enlighten's proprietary platform, <i>IONIC</i>; enable scalable ingest across 6 customer deployments through reusable parser components.</li>
                   <li>Designed the team's first Superset dashboards of 15-20 visualizations, enabling 5+ engineers and PMs to monitor ingest quality and catch missing/duplicate data, errors, and slowdowns before impacting customers.</li>
@@ -152,116 +152,116 @@ const Index = () => {
                 </ul>
               </div>
 
-              {/* Frontend Engineer */}
-              <div className="border-l-4 border-purple-500 pl-4">
+              {/* Frontend Engineer - Violet */}
+              <div className="border-l-4 border-violet-500 pl-4">
                 <div className="flex justify-between items-start">
                   <h3 className="font-semibold text-gray-900 dark:text-white">Frontend Engineer</h3>
                   <span className="text-sm text-gray-600 dark:text-gray-400">2022 - 2024</span>
                 </div>
-                <p className="text-sm text-purple-600 dark:text-purple-400 mb-2">Enlighten • Columbia, MD</p>
+                <p className="text-sm text-violet-600 dark:text-violet-400 mb-2">Enlighten • Columbia, MD</p>
                 <div className="flex flex-wrap gap-1 mt-2 mb-2">
-                  <span className="px-2 py-1 bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 text-xs rounded">Vue 3</span>
-                  <span className="px-2 py-1 bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 text-xs rounded">TypeScript</span>
-                  <span className="px-2 py-1 bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 text-xs rounded">Naive UI</span>
-                  <span className="px-2 py-1 bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 text-xs rounded">Apex Charts</span>
-                  <span className="px-2 py-1 bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 text-xs rounded">Pinia</span>
-                  <span className="px-2 py-1 bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 text-xs rounded">Element+</span>
+                  <span className="px-2 py-1 bg-violet-100 dark:bg-violet-900 text-violet-800 dark:text-violet-200 text-xs rounded">Vue 3</span>
+                  <span className="px-2 py-1 bg-violet-100 dark:bg-violet-900 text-violet-800 dark:text-violet-200 text-xs rounded">TypeScript</span>
+                  <span className="px-2 py-1 bg-violet-100 dark:bg-violet-900 text-violet-800 dark:text-violet-200 text-xs rounded">Naive UI</span>
+                  <span className="px-2 py-1 bg-violet-100 dark:bg-violet-900 text-violet-800 dark:text-violet-200 text-xs rounded">Apex Charts</span>
+                  <span className="px-2 py-1 bg-violet-100 dark:bg-violet-900 text-violet-800 dark:text-violet-200 text-xs rounded">Pinia</span>
+                  <span className="px-2 py-1 bg-violet-100 dark:bg-violet-900 text-violet-800 dark:text-violet-200 text-xs rounded">Element+</span>
                 </div>
-                <ul className="text-sm text-gray-600 dark:text-gray-300 space-y-1 list-disc pl-5 marker:text-purple-500 dark:marker:text-purple-400">
+                <ul className="text-sm text-gray-600 dark:text-gray-300 space-y-1 list-disc pl-5 marker:text-violet-500 dark:marker:text-violet-400">
                   <li>Built and extended Vue.js components for Avalanche, a Big Data Platform (BDP) application used by government clients to request, restore, and share archived S3 data across the Unified Platform.</li>
                   <li>Improved UI responsiveness and consistency across tabs and modals, enhancing user experience across critical workflows using Vue 3, TypeScript, Naive UI, Apex Charts, Pinia, and Element+.</li>
                 </ul>
               </div>
 
-              {/* Backend Engineer */}
-              <div className="border-l-4 border-green-500 pl-4">
+              {/* Backend Engineer - Indigo */}
+              <div className="border-l-4 border-indigo-500 pl-4">
                 <div className="flex justify-between items-start">
                   <h3 className="font-semibold text-gray-900 dark:text-white">Backend Engineer</h3>
                   <span className="text-sm text-gray-600 dark:text-gray-400">2021 - 2022</span>
                 </div>
-                <p className="text-sm text-green-600 dark:text-green-400 mb-2">Enlighten • Columbia, MD</p>
+                <p className="text-sm text-indigo-600 dark:text-indigo-400 mb-2">Enlighten • Columbia, MD</p>
                 <div className="flex flex-wrap gap-1 mt-2 mb-2">
-                  <span className="px-2 py-1 bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 text-xs rounded">Java</span>
-                  <span className="px-2 py-1 bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 text-xs rounded">SQL</span>
-                  <span className="px-2 py-1 bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 text-xs rounded">Maven</span>
+                  <span className="px-2 py-1 bg-indigo-100 dark:bg-indigo-900 text-indigo-800 dark:text-indigo-200 text-xs rounded">Java</span>
+                  <span className="px-2 py-1 bg-indigo-100 dark:bg-indigo-900 text-indigo-800 dark:text-indigo-200 text-xs rounded">SQL</span>
+                  <span className="px-2 py-1 bg-indigo-100 dark:bg-indigo-900 text-indigo-800 dark:text-indigo-200 text-xs rounded">Maven</span>
                 </div>
-                <ul className="text-sm text-gray-600 dark:text-gray-300 space-y-1 list-disc pl-5 marker:text-green-500 dark:marker:text-green-400">
+                <ul className="text-sm text-gray-600 dark:text-gray-300 space-y-1 list-disc pl-5 marker:text-indigo-500 dark:marker:text-indigo-400">
                   <li>Maintained and improved the Records backend service of the BDP to support data ingest and service integration for 3 BDP applications using Java and Maven.</li>
                   <li>Implemented new data fields in Java object model and wrote SQL migration scripts to support upcoming feature changes and schema updates.</li>
                 </ul>
               </div>
 
-              {/* Board Member */}
-              <div className="border-l-4 border-orange-500 pl-4">
+              {/* Board Member - Blue */}
+              <div className="border-l-4 border-blue-500 pl-4">
                 <div className="flex justify-between items-start">
                   <h3 className="font-semibold text-gray-900 dark:text-white">Board Member</h3>
                   <span className="text-sm text-gray-600 dark:text-gray-400">2024 - <i>Current</i></span>
                 </div>
-                <p className="text-sm text-orange-600 dark:text-orange-400 mb-2">Code Her Rising, <i>501(c)(3) non-profit</i> • Boyds, MD</p>
+                <p className="text-sm text-blue-600 dark:text-blue-400 mb-2">Code Her Rising, <i>501(c)(3) non-profit</i> • Boyds, MD</p>
                 <div className="flex flex-wrap gap-1 mt-2 mb-2">
-                  <span className="px-2 py-1 bg-orange-100 dark:bg-orange-900 text-orange-800 dark:text-orange-200 text-xs rounded">Canva</span>
-                  <span className="px-2 py-1 bg-orange-100 dark:bg-orange-900 text-orange-800 dark:text-orange-200 text-xs rounded">Affinity Designer 2</span>
+                  <span className="px-2 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs rounded">Canva</span>
+                  <span className="px-2 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs rounded">Affinity Designer 2</span>
                 </div>
-                <ul className="text-sm text-gray-600 dark:text-gray-300 space-y-1 list-disc pl-5 marker:text-orange-500 dark:marker:text-orange-400">
+                <ul className="text-sm text-gray-600 dark:text-gray-300 space-y-1 list-disc pl-5 marker:text-blue-500 dark:marker:text-blue-400">
                   <li>Design branded graphics and digital assets for event marketing and merchandise, supporting outreach for tech events with 50–100+ attendees.</li>
                   <li>Engage in outreach and networking initiatives to promote organizational mission of supporting women in tech, resulting in press coverage and 3–4 media features that boosted visibility and membership interest.</li>
                 </ul>
               </div>
 
-              {/* UMD TA */}
-              <div className="border-l-4 border-cyan-500 pl-4">
+              {/* UMD TA - Green */}
+              <div className="border-l-4 border-green-500 pl-4">
                 <div className="flex justify-between items-start mb-1">
                   <h3 className="font-semibold text-gray-900 dark:text-white">Undergraduate Teaching Assistant (Computer Science)</h3>
                   <span className="text-sm text-gray-600 dark:text-gray-400">Jan 2021 - May 2021</span>
                 </div>
-                <p className="text-sm text-cyan-600 dark:text-cyan-400 mb-2">University of Maryland • College Park, MD</p>
-                <ul className="text-sm text-gray-600 dark:text-gray-300 space-y-1 list-disc pl-5 marker:text-cyan-500 dark:marker:text-cyan-400">
+                <p className="text-sm text-green-600 dark:text-green-400 mb-2">University of Maryland • College Park, MD</p>
+                <ul className="text-sm text-gray-600 dark:text-gray-300 space-y-1 list-disc pl-5 marker:text-green-500 dark:marker:text-green-400">
                   <li>Teaching recitations to 15 computer science students for the introductory object-oriented programming course in Java (CMSC 131)</li>
                   <li>Facilitating 4 office hours a week to answer questions and provide help to students regarding coding projects and course concepts</li>
                   <li>Grading and proctoring projects, quizzes, and exams for 45 students</li>
                 </ul>
               </div>
 
-              {/* Full Stack Engineer Intern */}
-              <div className="border-l-4 border-cyan-500 pl-4">
+              {/* Full Stack Engineer Intern - Yellow */}
+              <div className="border-l-4 border-yellow-500 pl-4">
                 <div className="flex justify-between items-start mb-1">
                   <h3 className="font-semibold text-gray-900 dark:text-white">Full Stack Engineer Intern</h3>
                   <span className="text-sm text-gray-600 dark:text-gray-400">2020 - 2021</span>
                 </div>
-                <p className="text-sm text-cyan-600 dark:text-cyan-400 mb-2">Enlighten • Linthicum Heights, MD</p>
+                <p className="text-sm text-yellow-600 dark:text-yellow-400 mb-2">Enlighten • Linthicum Heights, MD</p>
                 <div className="flex flex-wrap gap-1 mt-2 mb-2">
-                  <span className="px-2 py-1 bg-cyan-100 dark:bg-cyan-900 text-cyan-800 dark:text-cyan-200 text-xs rounded">Java</span>
-                  <span className="px-2 py-1 bg-cyan-100 dark:bg-cyan-900 text-cyan-800 dark:text-cyan-200 text-xs rounded">Kafka</span>
-                  <span className="px-2 py-1 bg-cyan-100 dark:bg-cyan-900 text-cyan-800 dark:text-cyan-200 text-xs rounded">Maven</span>
-                  <span className="px-2 py-1 bg-cyan-100 dark:bg-cyan-900 text-cyan-800 dark:text-cyan-200 text-xs rounded">Spring API</span>
+                  <span className="px-2 py-1 bg-yellow-100 dark:bg-yellow-900 text-yellow-800 dark:text-yellow-200 text-xs rounded">Java</span>
+                  <span className="px-2 py-1 bg-yellow-100 dark:bg-yellow-900 text-yellow-800 dark:text-yellow-200 text-xs rounded">Kafka</span>
+                  <span className="px-2 py-1 bg-yellow-100 dark:bg-yellow-900 text-yellow-800 dark:text-yellow-200 text-xs rounded">Maven</span>
+                  <span className="px-2 py-1 bg-yellow-100 dark:bg-yellow-900 text-yellow-800 dark:text-yellow-200 text-xs rounded">Spring API</span>
                 </div>
-                <ul className="text-sm text-gray-600 dark:text-gray-300 space-y-1 list-disc pl-5 marker:text-cyan-500 dark:marker:text-cyan-400">
+                <ul className="text-sm text-gray-600 dark:text-gray-300 space-y-1 list-disc pl-5 marker:text-yellow-500 dark:marker:text-yellow-400">
                   <li>Developed an internal notifications system enabling cross-platform event notifications across 5+ Big Data Platform applications, email, and the <i>Mattermost</i> messaging platform</li>
                 </ul>
               </div>
 
-              {/* UMD TA */}
-              <div className="border-l-4 border-cyan-500 pl-4">
+              {/* UMD TA - Orange */}
+              <div className="border-l-4 border-orange-500 pl-4">
                 <div className="flex justify-between items-start mb-1">
                   <h3 className="font-semibold text-gray-900 dark:text-white">Undergraduate Teaching Assistant (Computer Science)</h3>
                   <span className="text-sm text-gray-600 dark:text-gray-400">Jan 2020 - May 2020</span>
                 </div>
-                <p className="text-sm text-cyan-600 dark:text-cyan-400 mb-2">University of Maryland • College Park, MD</p>
-                <ul className="text-sm text-gray-600 dark:text-gray-300 space-y-1 list-disc pl-5 marker:text-cyan-500 dark:marker:text-cyan-400">
+                <p className="text-sm text-orange-600 dark:text-orange-400 mb-2">University of Maryland • College Park, MD</p>
+                <ul className="text-sm text-gray-600 dark:text-gray-300 space-y-1 list-disc pl-5 marker:text-orange-500 dark:marker:text-orange-400">
                   <li>Facilitate a discussion section of 20-30 computer science students on the topic of Computer Systems (CMSC 216)</li>
                   <li>Hold 4 office hours a week to answer questions and provide help to students regarding concepts and projects</li>
                   <li>Grade and proctor projects, quizzes, and exams on a weekly basis</li>
                 </ul>
               </div>
 
-              {/* Girls Who Code TA */}
-              <div className="border-l-4 border-cyan-500 pl-4">
+              {/* Girls Who Code TA - Red */}
+              <div className="border-l-4 border-red-500 pl-4">
                 <div className="flex justify-between items-start mb-1">
                   <h3 className="font-semibold text-gray-900 dark:text-white">Teaching Assistant</h3>
                   <span className="text-sm text-gray-600 dark:text-gray-400">2019 - 2020</span>
                 </div>
-                <p className="text-sm text-cyan-600 dark:text-cyan-400 mb-2">Girls Who Code • College Park, MD</p>
-                <ul className="text-sm text-gray-600 dark:text-gray-300 space-y-1 list-disc pl-5 marker:text-cyan-500 dark:marker:text-cyan-400">
+                <p className="text-sm text-red-600 dark:text-red-400 mb-2">Girls Who Code • College Park, MD</p>
+                <ul className="text-sm text-gray-600 dark:text-gray-300 space-y-1 list-disc pl-5 marker:text-red-500 dark:marker:text-red-400">
                   <li>Provide guidance to middle and high school girls on topics surrounding programming in an effort to support and increase the number of young women in the field of Computer Science</li>
                 </ul>
               </div>

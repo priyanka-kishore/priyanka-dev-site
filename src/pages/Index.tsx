@@ -22,7 +22,7 @@ const Index = () => {
             <div className="w-32 h-32 mx-auto bg-gradient-to-br from-blue-400 to-purple-500 rounded-full flex items-center justify-center mb-4">
               <div className="w-24 h-24 bg-white dark:bg-gray-800 rounded-full flex items-center justify-center">
                 <img
-                  src="/profile.jpg"
+                  src="/profile-notion.png"
                   alt="Priyanka Kishore profile"
                   className="rounded-full object-cover"
                 />
@@ -30,6 +30,7 @@ const Index = () => {
             </div>
             <h1 className="text-2xl font-bold text-gray-900 dark:text-white mb-1">Priyanka Kishore</h1>
             <p className="text-lg bg-gradient-to-r from-blue-600 to-purple-600 dark:from-blue-400 dark:to-purple-400 inline-block text-transparent bg-clip-text font-semibold">Software Engineer</p>
+            <p className="text-xs text-gray-400 mb-4"><i>(she/they)</i></p>
             {/* <p className="text-xs text-gray-400 mb-4"><i>5 years of experience</i></p> */}
             {/* <p className="text-sm text-gray-600 dark:text-gray-300 leading-relaxed">semi-passionate developer with 5 years of attempts to build scalable applications and user-centric solutions</p> */}
           </div>

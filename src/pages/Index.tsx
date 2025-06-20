@@ -15,7 +15,7 @@ TODO
 const Index = () => {
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900 p-8 max-w-6xl mx-auto">
-      <div className="grid grid-cols-3 gap-8 h-screen">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Left Column - Personal Info */}
         <div className="col-span-1 space-y-6">
           <div className="text-center">
@@ -28,15 +28,15 @@ const Index = () => {
                 />
               </div>
             </div>
-            <h1 className="text-2xl font-bold text-gray-900 dark:text-white mb-1">priyanka kishore</h1>
-            <p className="text-lg bg-gradient-to-r from-blue-600 to-purple-600 dark:from-blue-400 dark:to-purple-400 inline-block text-transparent bg-clip-text font-semibold">software engineer</p>
+            <h1 className="text-2xl font-bold text-gray-900 dark:text-white mb-1">Priyanka Kishore</h1>
+            <p className="text-lg bg-gradient-to-r from-blue-600 to-purple-600 dark:from-blue-400 dark:to-purple-400 inline-block text-transparent bg-clip-text font-semibold">Software Engineer</p>
             {/* <p className="text-xs text-gray-400 mb-4"><i>5 years of experience</i></p> */}
             {/* <p className="text-sm text-gray-600 dark:text-gray-300 leading-relaxed">semi-passionate developer with 5 years of attempts to build scalable applications and user-centric solutions</p> */}
           </div>
 
           {/* Contact section */}
           <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4">
-            <h3 className="font-semibold text-gray-900 dark:text-white mb-3">let's connect!</h3>
+            <h3 className="font-semibold text-gray-900 dark:text-white mb-3">Let's connect!</h3>
             <div className="space-y-2 text-sm text-gray-600 dark:text-gray-300">
 
               <div>
@@ -79,7 +79,7 @@ const Index = () => {
 
           {/* Skills section */}
           <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4">
-            <h3 className="font-semibold text-gray-900 dark:text-white mb-3">techy skills</h3>
+            <h3 className="font-semibold text-gray-900 dark:text-white mb-3">My techy skills</h3>
             <div className="space-y-2">
               <h4 className="text-xs uppercase tracking-wider text-gray-500 dark:text-gray-400 mb-1">Languages</h4>
               <div className="flex flex-wrap gap-1">
@@ -120,9 +120,9 @@ const Index = () => {
         </div>
 
         {/* Right Column - Experience & Education */}
-        <div className="col-span-2 space-y-6">
+        <div className="col-span-1 md:col-span-2 space-y-6">
           <div>
-            <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-4 border-b-2 border-blue-500 pb-2">professional experience <span className="text-xs text-gray-400 font-light ml-1"><i>of 5 years</i></span></h2>
+            <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-4 border-b-2 border-blue-500 pb-2">Professional Experience <span className="text-xs text-gray-400 font-light ml-1"><i>of 5 years</i></span></h2>
             <div className="space-y-4">
 
               {/* Data Engineer - Purple */}
@@ -292,9 +292,9 @@ const Index = () => {
             </div>
 
             <div className="grid grid-cols-1 mb-4">
-              <div className="bg-purple-50 dark:bg-purple-900/20 rounded-lg p-4">
+              <div className="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-4">
                 <h3 className="font-semibold text-gray-900 dark:text-white mb-1">Certifications</h3>
-                <p className="text-sm text-purple-600 dark:text-purple-400">CompTIA Security+ Certified, <i>Oct 2023</i></p>
+                <p className="text-sm text-blue-600 dark:text-blue-400">CompTIA Security+ Certified, <i>Oct 2023</i></p>
                 <p className="text-xs text-gray-600 dark:text-gray-400">Demonstrated knowledge of core cybersecurity principles, risk management, and network security</p>
               </div>
             </div>

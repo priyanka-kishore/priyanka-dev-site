@@ -21,8 +21,11 @@ const Index = () => {
           <div className="text-center">
             <div className="w-32 h-32 mx-auto bg-gradient-to-br from-blue-400 to-purple-500 rounded-full flex items-center justify-center mb-4">
               <div className="w-24 h-24 bg-white dark:bg-gray-800 rounded-full flex items-center justify-center">
-                <Code className="w-12 h-12 text-gray-400" />
-                {/* Put profile picture here */}
+                <img
+                  src="/profile.jpg"
+                  alt="Priyanka Kishore profile"
+                  className="rounded-full object-cover"
+                />
               </div>
             </div>
             <h1 className="text-2xl font-bold text-gray-900 dark:text-white mb-1">priyanka kishore</h1>
